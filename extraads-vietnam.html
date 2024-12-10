@@ -1,0 +1,170 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YoSinTV - Streaming Cricket | Football | Playing XI | Match Preview</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .banner_wrapper>span {
+        position: absolute;
+        display: none;
+        right: 0;
+        top: 0;
+        background-color: #a7a7a742;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .banner_left {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .banner_right {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .banner_top {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .banner_bottom {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    @media screen and (max-width: 1024px) {
+
+        .banner_left,
+        .banner_right {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .banner_wrapper {
+            width: 100%;
+        }
+
+        .banner_wrapper iframe {
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <iframe src="https://www.yosin-tv.net/" allowfullscreen frameborder="0" style="width: 100%; height: 100%"></iframe>
+    <script type='text/javascript' src='//smellyla.com/e0/c6/b6/e0c6b6e4513428c34275044fc108c416.js'></script>
+    <div class="banner_left banner_wrapper">
+        <span style='font-size:10px;'>&#10060;</span>
+        <script type="text/javascript">
+        atOptions = {
+            'key': 'c0541c31e256ac23d7614469f8aaf572',
+            'format': 'iframe',
+            'height': 600,
+            'width': 160,
+            'params': {}
+        };
+        </script>
+        <script type="text/javascript" src="//smellyla.com/c0541c31e256ac23d7614469f8aaf572/invoke.js"></script>
+    </div>
+    <div class="banner_right banner_wrapper">
+        <span style='font-size:10px;'>&#10060;</span>
+        <script type="text/javascript">
+        atOptions = {
+            'key': '62670c092027b0290c588d0acb804486',
+            'format': 'iframe',
+            'height': 300,
+            'width': 160,
+            'params': {}
+        };
+        </script>
+        <script type="text/javascript" src="//smellyla.com/62670c092027b0290c588d0acb804486/invoke.js"></script>
+    </div>
+    <div class="banner_top banner_wrapper">
+        <span style='font-size:10px;'>&#10060;</span>
+        <script type="text/javascript">
+        atOptions = {
+            'key': '4b6d63ae2e7976565e54725b1c3bbc5f',
+            'format': 'iframe',
+            'height': 60,
+            'width': 468,
+            'params': {}
+        };
+        </script>
+        <script type="text/javascript" src="//smellyla.com/4b6d63ae2e7976565e54725b1c3bbc5f/invoke.js"></script>
+    </div>
+    <div class="banner_bottom banner_wrapper">
+        <span style='font-size:10px;'>&#10060;</span>
+        <script type="text/javascript">
+        atOptions = {
+            'key': '3734cfd0a194527e57a36769723efb69',
+            'format': 'iframe',
+            'height': 90,
+            'width': 728,
+            'params': {}
+        };
+        </script>
+        <script type="text/javascript" src="//smellyla.com/3734cfd0a194527e57a36769723efb69/invoke.js"></script>
+    </div>
+    <script>
+    // Attach click event to the close button to hide the iframe
+    $('.banner_wrapper > span').on('click', function() {
+        $(this).parent().hide();
+    });
+    // Chờ 5 giây sau khi trang đã tải
+    setTimeout(function() {
+        // Tạo một thẻ script
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://pl22156089.toprevenuegate.com/80/b3/0f/80b30fb78e441faee5cd33d555a9443b.js';
+
+        // Đợi cho script được tải xong
+        script.onload = function() {
+            console.log("Đã load xong script!");
+            // Các thao tác khác sau khi script đã được load
+        };
+
+        // Nếu có lỗi khi tải script
+        script.onerror = function() {
+            console.error("Lỗi khi tải script!");
+            // Xử lý lỗi nếu cần
+        };
+
+        // Thêm thẻ script vào phần head hoặc body của trang
+        // document.head.appendChild(script);
+        $('.banner_wrapper > span').show();
+    }, 5000); // 5 giây
+    $('.banner_wrapper iframe').ready(function() {
+        // Wait for 5 seconds after the page has finished loading
+        setTimeout(function() {
+
+            // Append style tag to add CSS for the close button
+            var cssStyles = '<style>@media screen and (max-width: 768px){img {width:100%;height:auto;}}</style>';
+            $('.banner_wrapper iframe').contents().find('head').append(cssStyles);
+        }, 5000);
+    });
+    </script>
+</body>
+
+</html>
